@@ -22,3 +22,10 @@ This project presents an end-to-end pipeline that:
 - **Animation Generation**: Pillow for GIF, [Other options: Pika, FramePack, SVD]
 - **Preprocessing**: OpenCV, NumPy, PIL
 - **Environment**: Python 3.10, Google Colab, Jupyter Notebook, Visual Studio Code
+
+## GPU & Inference
+- **GPU**: NVIDIA Tesla T4 — 15 GB VRAM (used Google Colab Free Tier)
+- **CUDA version**: 12.4
+- **Approx inference time**:   Detection + Segmentation: ~3 seconds/image,
+                              - Inpainting: ~6–8 seconds/image,
+                              - Animation generation: ~1 second/frame
