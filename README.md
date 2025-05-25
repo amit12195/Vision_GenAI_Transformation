@@ -25,12 +25,21 @@ This project presents an end-to-end pipeline that:
 
 ## GPU & Inference
 - **GPU**: NVIDIA Tesla T4 — 15 GB VRAM (used Google Colab Free Tier)  
-- **CUDA Version**: 12.4  
-
+- **CUDA Version**: 12.4
+- 
 **Approximate Inference Time:**
-
 | Task                          | Time (per frame)    |
 |-------------------------------|----------------------------|
 |  Detection + Segmentation   | ~3 seconds/image           |
 |  Stable Diffusion           | ~6–8 seconds/image         |
 |  Animation Generation       | ~1 second/frame            |
+
+## References
+
+- [object detection & segmentation](https://blog.roboflow.com/how-to-use-yolov8-with-sam/)
+- [YOLOv-8](https://docs.ultralytics.com/tasks/detect/)
+- [SAM](https://github.com/facebookresearch/segment-anything)
+- [Stable Diffusion](https://huggingface.co/stabilityai/stable-diffusion-2-inpainting)
+- [Unsplash – Product Lifestyle Images](https://unsplash.com/s/photos/product-lifestyle)
+- [Pexels – Lifestyle Product Photos](https://www.pexels.com/search/lifestyle%20product/)
+
