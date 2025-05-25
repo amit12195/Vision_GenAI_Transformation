@@ -4,13 +4,13 @@
 
 ## Overview
 This project presents an end-to-end pipeline that:
-- Detects and segments a kitchen object (e.g., **bottle** or **bowl**)
+- Detects and segments a kitchen object (**bottle** and **bowl**)
 - Replaces it with a **style-matched generative variant** using diffusion model
 - Generates a **3–5 second animation** of the transformed scene
 
 ## Option B – Kitchen Object Replacement
 
-- Detected and segmented kitchen objects (bottle, bowl).
+- Detected and segmented kitchen objects using **YOLOv8** and **SAM model** 
 - Replaced the original object with a stylized or generative version using the **stable diffusion inpainting** method
 - Maintained **visual realism** — lighting, shadow, and scene consistency.
 - Generated a short **animated video/GIF file**  to illustrate the transformation using the Python-Pillow library and also the Kling Tool 
