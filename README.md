@@ -13,7 +13,7 @@ This project presents an end-to-end pipeline that:
 - Detected and segmented kitchen objects (bottle, bowl).
 - Replaced the original object with a stylized or generative version using the **stable diffusion inpainting** method
 - Maintained **visual realism** — lighting, shadow, and scene consistency.
-- Produced a short **animated video** (GIF) to illustrate the transformation.
+- Generated a short **animated video/GIF file**  to illustrate the transformation using the Python-Pillow library and also the Kling Tool 
 
 ## Libraries & framework
 
@@ -32,7 +32,7 @@ This project presents an end-to-end pipeline that:
 |-------------------------------|----------------------------|
 |  Detection + Segmentation   | ~3 seconds/image           |
 |  Stable Diffusion           | ~6–8 seconds/image         |
-|  Animation Generation       | ~1 second/frame            |
+|  giff/Animation Generation       | ~1 second/frame (using Pillow library; Kling tool generation time not measurable) |
 
 ## References
 
