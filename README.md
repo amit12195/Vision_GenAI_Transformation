@@ -1,6 +1,6 @@
 # Vision_GenAI_Transformation
 
-# AI-Powered Kitchen Object Detection, Segmentation & Realistic Replacement with GenAI
+# Object Detection, Segmentation & Realistic Replacement with GenAI
 
 ## Overview
 This project presents an end-to-end pipeline that:
