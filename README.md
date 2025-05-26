@@ -26,7 +26,7 @@ This project presents an end-to-end pipeline that:
 ## GPU & Inference
 - **GPU**: NVIDIA Tesla T4 — 15 GB VRAM (used Google Colab Free Tier)  
 - **CUDA Version**: 12.4
-- 
+- **Note:** Before running the script, download the pretrained model for YOLO & SAM
 **Approximate Inference Time:**
 | Task                          | Time (per frame)    |
 |-------------------------------|----------------------------|
