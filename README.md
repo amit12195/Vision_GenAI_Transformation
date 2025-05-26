@@ -34,7 +34,7 @@ This project presents an end-to-end pipeline that:
 |  Stable Diffusion           | ~6–8 seconds/image         |
 |  giff/Animation Generation       | ~1 second/frame (using Pillow library; Kling tool generation time not measurable) |
 
-- **Note:** Before running the script, download the pretrained model for YOLO & SAM algorithm 
+- **Note:** Before running the script, download the pretrained model for YOLO & SAM algorithm, and for the Diffusion model, use Colab or GPU-based machine 
 ## References
 
 - [object detection & segmentation](https://blog.roboflow.com/how-to-use-yolov8-with-sam/)
